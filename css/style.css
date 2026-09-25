@@ -201,22 +201,17 @@ section h2::after {
 }
 .hero-image{
     flex: 1;
+   display: flex;
+   justify-content: center;
 }
 .hero-image img{
-    width: 100%;
+    width: 480px;
     max-width: 450px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.03);
     display: block;
-}
-.contact-container{
-    text-align: center;
-    margin: 0 auto;
-}
-.contact-detail {
-    display: inline-block;
-    text-align: center;
-    margin-top: 15px;
+   object-fit: cover;
+   transition: 3s;
 }
 .logo-box {
     display: flex;
