@@ -206,6 +206,7 @@ section h2::after {
 }
 .hero-image img{
     width: 480px;
+   height: 280px;
     max-width: 450px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.03);
